@@ -15,12 +15,18 @@
 marks = []
 total = 0
 status = "Pass"
-for i in range(3):
+subjects_count = int(float(input("Enter the number of subjects: ")))
+for i in range(subjects_count):
     invalid = True
+    tries = 3
     while invalid:
+        if tries == 0:
+            print("Out out tries, program will now exit!")
+            exit()  
+        tries -= 1
         mark = int(input(f"Enter marks for subject {i+1}: "))
         if mark > 100 or mark < 0:
-            print("Invalid Marks. Try again")
+            print(f"Invalid Marks. {tries} tries left.")
         else:
             invalid = False
     marks.append(mark)
