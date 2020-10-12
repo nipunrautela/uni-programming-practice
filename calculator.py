@@ -4,16 +4,16 @@ while True:
     if action == 5:
         print("Exiting now...")
         break
-    a = int(input("Enter the first number: "))
-    b = int(input("Enter the second number: "))
+    a = float(input("Enter the first number: "))
+    b = float(input("Enter the second number: "))
     if action == 1:
-        print("Sum:", a+b)
+        print("Sum:", round(a+b, 2))
     elif action == 2:
-        print("Difference:", a-b)
+        print("Difference:", round(a-b, 2))
     elif action == 3:
-        print("Product:", a*b)
+        print("Product:", round(a*b, 2))
     elif action == 4:
-        print("Quotient:", a/b)
+        print("Quotient:", round(a/b, 2))
     else:
         print("Invalid operation")
     input()
