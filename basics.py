@@ -58,4 +58,61 @@ print("Budget: ", budget)
 '''
 
 
+'''
+# Check whether num is odd or even
+
+num = int(input("Enter the number: "))
+print("The number is Even.") if num%2==0 else print("The number is Odd.")
+'''
+
+
+'''
+# Check if the year is a leap year
+
+year = int(input("Enter the year: "))
+if year%4 == 0:
+    print("The given year is a leap year.")
+else:
+    print("The given year is not a leap year.")
+'''
+
+
+'''
+# Root of a quadratic equation
+
+import math
+
+a = int(input("Enter the coefficient of x^2: "))
+b = int(input("Enter the coefficient of x: "))
+c = int(input("Enter the constant: "))
+roots = [
+    (-b + math.sqrt(b**2 - 4*a*c))/(2*a),
+    (-b - math.sqrt(b**2 - 4*a*c))/(2*a)
+]
+print("The roots are: ", roots[0], roots[1])
+'''
+
+
+'''
+# Add numbers from 1-n
+
+n = int(input("Enter last number: "))
+sum = 0
+while(n):
+    sum += n
+    n -= 1
+print("The sum is: ", sum)
+'''
+
+'''
+# Add numbers from 1-n
+
+n = int(input("Enter last number: "))
+sum = 1
+while(n):
+    sum *= n
+    n -= 1
+print("The sum is: ", sum)
+'''
+
 
