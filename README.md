@@ -1,1 +1,1 @@
-# College-Python-Practice
+# University Python Practice
