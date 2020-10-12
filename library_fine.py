@@ -5,11 +5,11 @@ da = int(input("Enter the actual date of return"))
 ma = int(input("Enter the actual date of return"))
 ya = int(input("Enter the actual date of return"))
 
-if ye != ya:
+if ye < ya:
     print("Fine:", 10000)
-elif me != ma:
+elif me <= ma:
     print("Fine:", (ma-me)*500)
-elif de != da:
+elif de <= da:
     print("Fine:", (da-de)*15)
 else:
     print("No fine.")
