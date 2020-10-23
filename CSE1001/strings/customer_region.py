@@ -14,3 +14,28 @@ for customer in customer_info:
         print("Customer Name:", customer[0])
         print("Customer Age:", customer[1])
         print("Customer Gender:", customer[2], end="\n\n")
+# for input
+# Nipun
+# 18
+# Male
+# Delhi
+# Someone
+# 19
+# Male
+# Earth
+# Another Person
+# 34
+# Female
+# Delhi
+# Kanika
+# 23
+# Female
+# Noida
+# Shras
+# 18
+# Male
+# Chennai
+# Muthun
+# 18
+# Male
+# Chennai
