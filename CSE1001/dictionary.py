@@ -1,7 +1,7 @@
 contacts = {}
 for i in range(5):
     relation = input("Enter the relation name: ")
-    phno = int(input("Enter their Number"))
+    phno = int(input("Enter their Number: "))
     
     contacts[relation] = phno
 
