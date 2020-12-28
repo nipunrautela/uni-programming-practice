@@ -22,7 +22,7 @@ int main() {
      * Read two numbers from user separated by comma 
      */  
     printf("Input any two numbers separated by comma : ");  
-    scanf("%d,%d", &num1, &num2);  
+    scanf("%d%d", &num1, &num2);  
   
     /* 
      * Performs all arithmetic operations 
